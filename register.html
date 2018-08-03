@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录注册_ASUS华硕电脑官方商城-笔记本、手机、一体机、台式机官方直营</title>
+     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link href="css/register.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="register">
+        <div class="register_box">
+            <div class="register_box_logo">
+                <img src="img/logo-2.png">
+            </div>
+            <div class="register_box_h2">
+                <h2>注册华硕商城账号</h2>
+            </div>
+            <div class="register_box_form">
+                <form action="" metod="post">
+                    <div class="register_box_form_phone">
+                        <input type="text" id="phoneId" placeholder="请输入11位手机号">
+                    </div>
+                     <div class="register_box_form_password">
+                        <input type="password" id="passId" placeholder="密码8-25个字符,请不要输入非法字符">
+                    </div>
+                    <div class="register_box_form_password2">
+                        <input type="password" id="pass2Id" placeholder="再次填写密码">
+                    </div>
+                    <div class="register_box_form_city">
+                        <div class="info">
+                        <div>
+		
+                            <select id="s_province" name="s_province"></select>  
+
+                            <select id="s_city" name="s_city" ></select>  
+
+                            <select id="s_county" name="s_county"></select>
+
+                            <script class="resources library" src="js/area.js" type="text/javascript"></script>
+
+                            <script type="text/javascript">_init_area();</script>
+
+                         </div>
+
+                        <div id="show"></div>
+                        </div>
+                    </div>
+                    <div class="register_box_from_day">
+                        <img src="img/day.png"><input  placeholder="请输入出生日期" id="dayId" type="text" class="date_picker">
+                    </div>
+                    <div class="register_box_from_code">
+                        <input type="text" placeholder="请输入验证码" id="codeId">
+                        <a href="#">
+                            <span>获取短信验证码</span>
+                        </a>
+                    </div>
+                    <div class="register_box_from_registerbtn">
+                        <input type="submit" value="注&nbsp;&nbsp;&nbsp;册" id="subId">
+                    </div>
+                    <div class="register_box_from_xieyi">
+                        <input type="checkbox" name=""/>
+                        <span>我已阅读并同意</span><a href="#">会员注册协议</a><span>和</span><a href="#">隐私保护政策</a>
+                    </div>
+                    <div class="register_box_from_login">
+                        <a href="#">登录</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- <script type="text/javascript">
+    var Gid = document.getElementById;
+
+    var showArea = function () {
+
+        Gid('show').innerHTML = "<h3>省" + Gid('s_province').value + " - 市" +
+
+            Gid('s_city').value + " - 县/区" +
+
+            Gid('s_county').value + "</h3>"
+
+    }
+
+    Gid('s_county').setAttribute('onchange', 'showArea()');
+</script> -->
+

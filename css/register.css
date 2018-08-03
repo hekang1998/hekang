@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+ul,ol,li{
+    list-style: none;
+}
+body{
+    height: 100%;
+    font-family: "微软雅黑";
+}
+dl{
+    clear: left;
+}
+dt,dd{
+    float: left;
+}
+body{
+    background: #f2f2f2;
+}
+
+
+.register{
+    width: 100%;
+    height: 680px;
+    /* background: red; */
+    /* padding-top: 100px; */
+}
+.register_box{
+    width: 576px;
+    height: 680px;
+    background: #fff;
+    /* background: url(../img/logo-2.png) no-repeat center 36px; */
+    margin: 0 auto;
+}
+.register_box_logo{
+    width:115px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+.register_box_h2{
+    width: 270px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+.register_box_h2 h2{
+    font-size: 26px;
+    font-weight: 100;
+}
+.register_box_form {
+    width: 270px;
+    height: 371px;
+    margin: 0 auto;
+    /* text-align: center; */
+    padding-top: 25px;
+    /* background: red; */
+}
+.register_box_form_phone{
+    height: 62px;
+}
+.register_box_form_password {
+    height: 62px;
+}
+.register_box_form_password2 {
+    height: 62px;
+}
+.register_box_form_city{
+    height: 62px;
+}
+.register_box_from_day{
+    height: 62px;
+    position: relative;
+}
+.register_box_from_code{
+    height: 62px;
+    width: 275px;
+}
+.register_box_from_registerbtn{
+    height: 62px;
+    width: 275px;
+}
+.register_box_from_xieyi{
+     height: 42px;
+     width: 275px;
+}
+#phoneId{
+    width: 268px;
+    height: 36px;
+    border: 1px solid #d6d6d6;
+    outline: none;
+    line-height: 26px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+#passId{
+    width: 268px;
+    height: 36px;
+    border: 1px solid #d6d6d6;
+    outline: none;
+    line-height: 26px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+#pass2Id {
+    width: 268px;
+    height: 36px;
+    border: 1px solid #d6d6d6;
+    outline: none;
+    line-height: 26px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+/* /省市联动/ */
+.top {
+    margin-left:0px ;
+    color: #990000;
+    /* text-align: center; */
+}
+
+.info select {
+    border: 1px #d6d6d6 solid;
+    background: #FFFFFF;
+    height: 38px;
+    float: left;
+    margin-right: 10px;
+}
+
+.info {
+    /* margin: 5px; */
+    text-align: center;
+}
+
+.info #show {
+    color: #3399FF;
+}
+
+.bottom {
+    /* text-align: right; */
+    font-size: 12px;
+    color: #CCCCCC;
+    width: 1000px;
+}
+/* // */
+
+.register_box_from_day img{
+    position: absolute;
+    left: 3px;
+    top: 10px;
+}
+
+/* date */
+
+#dayId{
+    outline: none;
+    width:241px;
+    height:26px;
+    border: 1px solid #d6d6d6;
+    font-size: 14px;
+    padding: 7px;
+    padding-left: 25px;
+}
+#codeId{
+    width: 105px;
+    height: 38px;
+    border: 1px solid #d6d6d6;
+    outline: none;
+    line-height: 26px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.register_box_from_code span{
+    width: 150px;
+    height: 38px;
+    background: #00a8ff;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    margin-left: 8px;
+}
+#subId{
+    width: 275px;
+    height: 38px;
+    background: #00a8ff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.register_box_from_xieyi span{
+    color: #686363;
+    font-size: 12px;
+}
+.register_box_from_xieyi a {
+    color: #00a8ff;
+    font-size: 12px;
+}
+.register_box_from_login a{
+    color: #00a8ff;
+    font-size: 15px;
+}
